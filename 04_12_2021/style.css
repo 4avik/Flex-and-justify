@@ -1,0 +1,205 @@
+/*
+body {
+    background-color: white;
+}
+
+.background {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.kast {
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(233, 194, 233);
+    background-color: rgba(128, 128, 128, 0.623);
+    color: rgb(233, 194, 233);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.riba {
+    background-color: thistle;
+    height: 20px;
+    width: 100%;
+}
+
+.title {
+    height: 19px;
+}
+
+.boxline-just-cont {
+    background-color: tan;
+}
+
+.flex-start {
+    background-color: teal;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.flex-end {
+    background-color: tomato;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.center {
+    background-color: teal;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.space-between {
+    background-color: tomato;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.space-around {
+    background-color: teal;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.boxline-align-it {
+    background-color: tan
+}
+
+.a-flex-start {
+    background-color: rgb(119, 95, 63);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.a-flex-end {
+    background-color: salmon;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.a-center {
+    background-color: rgb(119, 95, 63);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.a-baseline {
+    background-color: salmon;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.a-stretch {
+    background-color: rgb(119, 95, 63);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+/* Flexbox'i mida kasutada:
+justify-content:
+flex-start: Elemendid joonduvad konteineri vasakule poole
+flex-end: Elemendid joonduvad konteineri paremale poole
+center: Elemendid joonduvad konteineri keskele
+space-between: Elementide vahele tekib iga kord sama suur vahe
+space-around: Elementide ümber tekib iga kord sama suur vahe
+(nt. 
+display: flex;
+justify-content: center;)
+---------------------------------------------------------------
+align-items, mida kasutada:
+flex-start: joondab elemendid konteineri ülemisse osasse.
+flex-end: joondab elemendid konteineri alumisse osasse.
+center: joondab elemendid konteineri keskele
+baseline: Elemendid asuvad konteineri lähtekohas.
+stretch: Elemendid on välja venitatud, et kõik nad mahuksid konteinerisse.
+(nt. 
+display: flex;
+align-items: flex-end;)
+---------------------------------------------------------------
+flex-direction, mida kasutada:
+row: Elemendid on paigutatud samas suunas mis tekst.
+row-reverse: Elemendid on paigutatud tekstiga vastassuunas.
+column: Elemendid on paigutatud ülevalt alla.
+column-reverse: Elemendid on paigutatud alt üles.
+(nt. 
+    display: flex;
+    flex-direction: column;)
+---------------------------------------------------------------
+Pea meeles, et kui flex direction on veerg (column), siis justify-content muutub vertikaalseks ja align-items horisontaalseks
+---------------------------------------------------------------
+order, mida kasutada:
+(nt. 
+    .yellow {
+    order: 1;
+    } )
+---------------------------------------------------------------
+align-self, mida kasutada:
+(nt.
+    .yellow {
+    align-self: flex-end;
+    } )
+---------------------------------------------------------------
+flex-wrap, mida kasutada:
+nowrap: Kõik elemendid on paigutatud ühele reale.
+wrap: elemendid on pakitud ümber eraldi joonte.
+wrap-reverse: Elemendid on pakitud ümber eraldi joonte aga vastupidises järjekorras.
+(nt.
+    display: flex;
+    flex-wrap: wrap; )
+---------------------------------------------------------------
+flex-flow, mida kasutada:
+(See on flex-direction ja flex-wrap kombo)
+(nt. 
+    display: flex;
+    flex-flow: column wrap; )
+---------------------------------------------------------------
+align-content, mida kasutada:
+flex-start: Jooned on pakitud konteineri tippu.
+flex-end: Jooned on pakitud konteineri põhja.
+center: Jooned on pakitud vertikaalselt konteineri keskele.
+space-between: Kõigi joonte vahel on sama suur vahe.
+space-around: Kõigi joonte ümber on sama palju ruumi.
+stretch: Jooned on venitatud nii, et mahuvad konteineri sisse.
+(nt.
+     display: flex;
+     flex-wrap: wrap;
+    align-content: flex-end; )
+(Lühidalt, align-content määrab kui palju ruumi on joonte vahel ning align-items määrab kuidas elemendid ise on paigutatud konteineri sees.
+Kui jooni on ainult 1, siis align-content ei tee mitte midagi.)
+---------------------------------------------------------------
+
+*/
