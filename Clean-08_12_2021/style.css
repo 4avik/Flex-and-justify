@@ -1,0 +1,121 @@
+.kast {
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(233, 194, 233);
+    background-color: rgba(128, 128, 128, 0.623);
+    color: rgb(233, 194, 233);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.kast2 {
+    width: 50px;
+    border: 3px solid rgb(233, 194, 233);
+    background-color: rgba(128, 128, 128, 0.623);
+    color: rgb(233, 194, 233);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.riba {
+    background-color: rgb(233, 227, 233);
+    height: 20px;
+    width: 100%;
+}
+
+.flex-start {
+    background-color: teal;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.flex-end {
+    background-color: tomato;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.center {
+    background-color: teal;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.space-between {
+    background-color: tomato;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.space-around {
+    background-color: teal;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.a-flex-start {
+    background-color: rgb(119, 95, 63);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a-flex-end {
+    background-color: salmon;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a-center {
+    background-color: rgb(119, 95, 63);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a-baseline {
+    background-color: salmon;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a-stretch {
+    background-color: rgb(119, 95, 63);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+}
